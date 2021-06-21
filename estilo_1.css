@@ -39,7 +39,7 @@
 	width: 45%;
 	min-height: 300px;
 	border: 2px solid black;
-	margin-left: 40px;
+	margin-left: 30px;
 }
 
 .article{
@@ -59,9 +59,10 @@
 }
 
 #foto{
-	width: 40%;
-	min-height: 300px;
-	margin-left: 45px;
+	width: 250px;
+	min-height: 250px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border: 2px solid black;
@@ -75,6 +76,7 @@
 	height: auto;
 	padding: 15px;
 	border-radius: 50%;
+	object-fit: cover;
 }
 
 aside{
@@ -157,12 +159,13 @@ aside ul li{
 	#articulo{
 		margin-top: 30px;
 		margin-bottom: 30px;
+
 		width: 80%;
 	}
 
 	#foto{
-		margin-left: 60px;
-		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -171,12 +174,16 @@ aside ul li{
 		font-size: 15px;
 	}
 
+	nav{
+		font-size: 90%;
+	}
+
 	#general{
-		height: 1300px;
+		height: 1250px;
 	}
 
 	#cuerpo{
-		height: 700px;
+		height: 650px;
 	}
 
 	#content{
@@ -194,7 +201,7 @@ aside ul li{
 	}
 
 	#foto{
-		margin-left: 30px;
-		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
