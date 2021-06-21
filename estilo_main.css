@@ -23,7 +23,7 @@ body{/*selector de etiqueta*/
 
 header{/*se puede tener varias etiquetas header*/
 	border-top: 2px solid black;
-	background: rgba(197,239,244,0.8);
+	background: rgba(255,255,255,0.7);
 	height: 100px;
 	width: 100%;
 	margin:0px;
@@ -67,7 +67,7 @@ nav div{
 	position: relative;
 	margin: 6px 0px 6px 0px;
 	border:1px solid #2D99A5;
-	padding: 9px 15px 9px 15px;
+	padding: 9px;
 }
 
 nav a{
