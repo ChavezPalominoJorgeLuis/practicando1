@@ -180,6 +180,7 @@ aside ul li{
 
 
 @media(max-width:700px){
+
 	header{
 		font-size: 13px;
 	}
@@ -228,7 +229,7 @@ aside ul li{
 		font-size: 18px;
 	}
 	#general{
-		height: 1200px;
+		height: 840px;
 	}
 
 	#cuerpo{
@@ -336,7 +337,7 @@ aside ul li{
 		font-size: 18px;
 	}
 	#general{
-		height: 1240px;
+		height: 920px;
 	}
 
 	#cuerpo{
