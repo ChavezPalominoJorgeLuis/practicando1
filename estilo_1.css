@@ -20,20 +20,24 @@
 }
 
 #overlay{
-	width: 1100px;
+	content: "";
+	width: 100%;
 	height: 400px;
 	background-image:linear-gradient(90deg, #52c4df,#ad55c1);
 	opacity: 0.5;
+	position: absolute;
 	z-index: 1;
 }
-#panel div{
-	width: 100%;
-	height: 400px;
+
+#text_panel{
+	border: 2px solid black;
+	width: 50%;
+	height: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	z-index: 2;
+  	z-index: 2;
 }
 
 #panel div p{
