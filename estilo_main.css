@@ -93,9 +93,8 @@ nav div:hover{
 
 footer{
 	border-top: 2px solid black;
-	background: white;
+	background: #CEEDF7;
 	opacity: 0.9;
-	color: white;
 	text-align: center;
 	height:50px;
 	line-height:50px;
