@@ -49,7 +49,7 @@
 #articulo{
 	float:left;
 	width: 45%;
-	min-height: 300px;
+	min-height: 250px;
 	margin-left: 30px;
 }
 
@@ -57,7 +57,7 @@
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-bottom: 2px solid #250AF2;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .article:first-child{
@@ -178,41 +178,222 @@ aside ul li{
 	}
 }
 
-@media(max-width:700px){ /*celular*/
+
+@media(max-width:700px){
 	header{
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	nav{
 		font-size: 90%;
 	}
+	
+	#cabeza{
+		width: 55px;
+		height: 55px;
+		margin-right: 15px;
+	}
 
+	nav{
+		align-items: center;
+		height: 45px;
+	}
+	nav div{
+		margin: 5px 0px 5px 0px;
+		border:0.5px solid #2D99A5;
+		padding: 4px;
+	}
+	nav a{
+	    font-size: 14px;
+	}
+	nav div:first-child{
+	margin-left: 3px;
+	}
+
+
+	#panel{
+		border-bottom: 2px solid black;
+		width: 100%;
+		height: 180px;
+	}
+	#text_panel{
+		width: 100%;
+		height: 150px;
+	}
+	#overlay{
+		width: 100%;
+		height: 180px;
+	}
+	#panel div p{
+		font-size: 18px;
+	}
 	#general{
-		height: 1250px;
+		height: 1200px;
 	}
 
 	#cuerpo{
-		height: 650px;
+		height: 480px;
 	}
 
 	#content{
-		width:70%;
-		display: inline-block;
+		width:58%;
 		}
 
 	aside {
-		width: 30%;
+		width: 42%;
 	}
 	#articulo{
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 18px;
 		width: 80%;
+	}
+	.article h2{
+		font-size: 22px;
+		color: #250AF2;
 	}
 
 	#foto{
 		margin-left: auto;
 		margin-right: auto;
+		width: 180px;
+		min-height: 180px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
+
+	#foto img{
+		padding: 5px;
+	}
+
+	footer p{
+		height: 20px;
+		font-size: 15px;
+		margin-left: 5px;
+		margin-right: 2px;
+	}
+
+	#foot a{
+		height: 20px;
+		font-size: 90%;
+		flex-direction: column;
+		margin-right: 3px;
+		margin-left: 3px;
+	}
+
+	footer{
+		height: 40px;
+		line-height:40px;
+	}
+}
+
+@media(max-width:468px){
+	header{
+		font-size: 13px;
+	}
+
+	nav{
+		font-size: 90%;
+	}
+	
+	#cabeza{
+		width: 55px;
+		height: 55px;
+		margin-right: 15px;
+	}
+
+	nav{
+		align-items: center;
+		height: 45px;
+	}
+	nav div{
+		margin: 5px 0px 5px 0px;
+		border:0.5px solid #2D99A5;
+		padding: 4px;
+	}
+	nav a{
+	    font-size: 14px;
+	}
+	nav div:first-child{
+	margin-left: 3px;
+	}
+
+
+	#panel{
+		border-bottom: 2px solid black;
+		width: 100%;
+		height: 180px;
+	}
+	#text_panel{
+		width: 100%;
+		height: 150px;
+	}
+	#overlay{
+		width: 100%;
+		height: 180px;
+	}
+	#panel div p{
+		font-size: 18px;
+	}
+	#general{
+		height: 1240px;
+	}
+
+	#cuerpo{
+		height: 560px;
+	}
+
+	#content{
+		width:58%;
+		}
+
+	aside {
+		width: 42%;
+	}
+	#articulo{
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 18px;
+		width: 80%;
+	}
+	.article h2{
+		font-size: 22px;
+		color: #250AF2;
+	}
+
+	#foto{
+		margin-left: auto;
+		margin-right: auto;
+		width: 180px;
+		min-height: 180px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	#foto img{
+		padding: 5px;
+	}
+
+	footer p{
+		height: 20px;
+		font-size: 15px;
+		margin-left: 5px;
+		margin-right: 2px;
+	}
+
+	#foot a{
+		height: 20px;
+		font-size: 90%;
+		flex-direction: column;
+		margin-right: 3px;
+		margin-left: 3px;
+	}
+
+	footer{
+		height: 40px;
+		line-height:40px;
+	}
+
 }
 
 @media(max-width:375px){
@@ -228,20 +409,19 @@ aside ul li{
 	}
 
 	nav{
-		height: 35px;
+		height: 36px;
 	}
 	nav div{
 		margin: 3px 0px 3px 0px;
 		border:0.5px solid #2D99A5;
-		padding: 2px;
+		padding: 3px;
 	}
 	nav a{
-	    font-size: 10px;
+	    font-size: 11px;
 	}
 	nav div:first-child{
 	margin-left: 3px;
 	}
-
 
 	#panel{
 		border-bottom: 2px solid black;
@@ -261,8 +441,8 @@ aside ul li{
 	}
 
 	#foto{
-		width: 150px;
-		min-height: 150px;
+		width: 140px;
+		min-height: 140px;
 		margin-top: 5px;
 		margin-bottom: 5px;
 	}
@@ -276,12 +456,11 @@ aside ul li{
 
 	#content{
 		width: 58%;
-		background: rgba(197,239,244,0.7);
 	}
 	#articulo{
 		width: 80%;
 		margin-left: 10px;
-		margin-bottom: 3px;
+		margin-bottom: 10px;
 		margin-top: 10px;
 	}
 	.article{
@@ -307,17 +486,14 @@ aside ul li{
 
 	footer{
 		height: 34px;
-		border-top: 2px solid black;
 		line-height:30px;
-		border-bottom: 2px solid black;
-		padding-bottom: 
 	}
 
 	footer p{
 		height: 20px;
 		font-size: 13px;
-		margin-left: 5px;
-		margin-right: 2px;
+		margin-left: 1px;
+		margin-right: 1px;
 	}
 
 	#foot a{
@@ -327,6 +503,7 @@ aside ul li{
 		margin-right: 3px;
 		margin-left: 3px;
 	}
+	
 	#general{
 	width: 100%;
 	height: 700px;
