@@ -40,7 +40,6 @@ header{/*se puede tener varias etiquetas header*/
 #cabeza{
 	width: 80px;
 	height: 80px;
-	border: 2px solid black;
 	margin-right: 20px;
 }
 
@@ -95,9 +94,23 @@ nav div:hover{
 footer{
 	border-top: 2px solid black;
 	background: gray;
+	opacity: 0.9;
 	color: white;
 	text-align: center;
 	height:50px;
 	line-height:50px;
 	border-bottom: 2px solid black;
+	display: flex;
+	justify-content: flex-start;
+}
+footer p{
+	color: white;
+	margin-left: 8px;
+}
+
+footer a{
+	color: #4611F3;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-decoration: none;
 }
