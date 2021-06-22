@@ -3,7 +3,7 @@
 	min-height: 400px;
 	display: flex;
 	align-items: center;
-	background: rgba(197,239,244,0.8);
+	background: rgba(197,239,244,0.7);
 }
 
 #panel{
@@ -16,18 +16,27 @@
   	animation-duration: 8s;
   	animation-iteration-count: infinite;
   	justify-content: center;
+  	position: relative;
 }
 
-#textop{
-	width: 370px;
-	height: 100px;
-	border: 2px solid black;
+#overlay{
+	width: 1100px;
+	height: 400px;
+	background-image:linear-gradient(90deg, #52c4df,#ad55c1);
+	opacity: 0.5;
+	z-index: 1;
+}
+#panel div{
+	width: 100%;
+	height: 400px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: absolute;
+	z-index: 2;
 }
 
-#textop p{
+#panel div p{
 	text-align: center;
 	font-size: 30px;
 	color: white;
@@ -38,19 +47,18 @@
 	float:left;
 	width: 45%;
 	min-height: 300px;
-	border: 2px solid black;
 	margin-left: 30px;
 }
 
 .article{
 	margin-top: 15px;
 	margin-bottom: 15px;
-	border-bottom: 1px solid #250AF2;
+	border-bottom: 2px solid #250AF2;
 	padding-bottom: 10px;
 }
 
 .article:first-child{
-	border-top: 1px solid #250AF2;
+	border-top: 2px solid #250AF2;
 }
 
 .article h2{
@@ -65,7 +73,6 @@
 	margin-right: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	border: 2px solid black;
 	display: flex;
 	align-items: center
 	justify-content:center;
